@@ -1,0 +1,153 @@
+* {
+	box-sizing: border-box;
+	font-family: "Baloo Tammudu 2", cursive;
+	margin: 0;
+	padding: 0;
+	background-color:#ffd9b3;
+}
+
+body {
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	background: #ffd9b3;
+	line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	padding: 0;
+	font-family: "Playfair Display", serif;
+}
+
+img {
+	max-width: 100%;
+}
+
+figcaption {
+	font-size: 0.8rem;
+}
+
+.hero {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 30vh;
+	font-size: clamp(1.5rem, 5vw, 3rem);
+}
+
+.landing {
+	display: flex;
+	align-items: center;
+	margin: 0 2rem;
+
+
+
+		p {
+			font-size: 0.9rem;
+		}
+	}
+
+	& > * {
+		flex-basis: 100%;
+	}
+
+	.description {
+		display: flex;
+		flex-direction: column;
+		margin: 0 1rem;
+	}
+}
+
+.intro {
+	display: flex;
+	list-style: none;
+	margin: 2rem 10rem;
+	align-items: center;
+	justify-content: center;
+
+(max-width: 700px) {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		margin: 2rem 1rem;
+	}
+
+	& > * {
+		flex-basis: 100%;
+		margin: 5px;
+		color: #fff;
+		padding: 1rem 0.2rem;
+		align-content: center;
+		height: 100px;
+		border-radius: 4px;
+	}
+
+	li:nth-child(1) {
+		background: purple;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	li:nth-child(2) {
+		background: lightgreen;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	li:nth-child(3) {
+		background: pink;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	li:nth-child(4) {
+		background: lightblue;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+}
+
+.recipe_details {
+	display: flex;
+	margin: 0 4rem;
+
+	@media (max-width: 700px) {
+		flex-direction: column;
+		margin: 0 2rem;
+	}
+
+	& > * {
+		flex-basis: 100%;
+		margin: 2rem 0;
+	}
+
+	h2 {
+		margin-bottom: 1rem;
+	}
+
+	li {
+		margin: 1rem 0;
+	}
+}
+
+.variation {
+	font-style: italic;
+}
+
+ul,
+ol {
+	list-style: numbers;
+}
+
+.inner_ul {
+	list-style: circle;
+	margin-left: 2rem;
+}
