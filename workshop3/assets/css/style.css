@@ -1,0 +1,173 @@
+
+
+div{
+    border: 1px solid rgba(255, 255, 255, 0);
+    margin: 10px;
+    padding: 10px;
+}
+
+ #div2{
+    border: 1px solid rgb(246, 241, 241);
+    margin: 10px;
+    padding: 10px;
+}
+
+#sidebar1{
+    width: 140px;
+    height: 340px;
+    background-color: #0a135b;
+
+}
+#sidebar2{
+    width: 106px;
+    height: 106px;
+    float: left;
+    position: relative; left:-10px;
+    background-color: white;
+}
+#sidebar3{
+    width: 25px;
+    height: 25px;
+    float: right;
+    margin-right: 26px;
+    position: relative; left: -44px;
+    position: relative; top: -280px;
+    background-color: #0a135b;
+
+}
+#sidebar4{
+    width: 250px;
+    height: 50px;
+    float: left;
+    background-color: white;
+   
+}
+#sidebar5{
+    width: 250px;
+    height: 50px;
+    float: left;
+    position: relative; left: -20px;
+ 
+    background-color: white;
+}
+#sidebar6{
+    width: 521px;
+    height: 175px;
+    float: none;
+    margin-left: px;
+    margin-top: 62px;
+    background-color: white;
+    
+ 
+
+}
+#sidebar7{
+    width: 521px;
+    height: 12.5px;
+    float: left;
+    position: relative; top:-20px;
+    background-color: #0f255c;
+    color: white;
+}
+#sidebar8{
+    width: 521px;
+    height: 12.5px;
+    float: right;
+    margin-right: 46px;
+    position: relative; top:-40px;
+    background-color: #0f255c;
+    color: white;
+
+}
+#sidebar9{
+    width: 120px;
+    height: 93px;
+    float: left;
+   
+}
+#sidebar10{
+    width: 120px;
+    height: 40px;
+    float: left;
+}
+#sidebar11{
+    width: 245px;
+    height: 340px;
+    float: left;
+    position: relative; top: -773px;
+   margin-left: 792px;
+   background-color: #60503c;
+}
+#container20 {
+    height:340px ;
+    width: 600px;
+    position: relative; top: -373px;
+    margin-left: 170px;
+    background-color: #081433;
+}
+#img{
+   margin-left: 200px;
+   position: relative; top: -15px;
+
+}
+
+#sidebar2 p{
+
+    font-size: 50px;
+    color: rgb(3, 3, 139);
+    position: relative; top: -30px;
+    margin-left: 20px;
+}
+#spoor2{
+    text-align: center;
+}
+
+#sidebar7 p{
+   float: left;
+    position: relative; top: -10px;
+}
+
+#sidebar8 p{
+
+    float: left;
+    position: relative; top: -10px;
+}
+
+#img{
+    position: relative; left: -170px;
+}
+
+#ns{
+    margin-left: 150px;
+    position: relative; top: -70px;
+
+}
+
+.h2{
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#p1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+#spoor1{
+    margin-left: 40px;
+    color: rgb(5, 23, 124s);
+}
+
+#sidebar2 span{
+
+    text-align: center;
+}
+
+#h3{
+    position: relative;top: -150px;
+    margin-left: 70px;
+    color: rgb(3, 3, 139);
+}
