@@ -1,0 +1,102 @@
+body{
+    background-color: #03b430;
+}
+
+div{
+    background-color: white;
+    height: 210px;
+    width: 150px;
+    border-radius: 5px;
+}
+
+.container{
+
+    background-color: #03b430;
+    border: 1px solid black;
+    height: 1000px;
+    width: 600px;
+    margin: auto;
+}
+
+#kaart1{
+    height: 210px;
+    width: 150px;
+}
+#kaart2{
+    height: 210px;
+    width: 150px;
+    margin-left: 150px;
+    margin-top: 10px;
+    
+}
+#kaart3{
+    height: 210px;
+    width: 150px;
+    margin-left:300px ;
+    margin-top: 10px;
+}
+#kaart4{
+    height: 210px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 450px;
+}
+
+
+#hart2{
+float: right;
+
+margin-top: 140px;
+}
+
+#schoppen2{
+    float: right;
+
+    margin-top: 140px;
+}
+
+#klaver2{
+    float: right;
+
+    margin-top: 140px;
+}
+
+#ruit2{
+    float: right;
+    margin-top: 140px;
+}
+
+#hart1{
+    position: relative; top: -100px;
+}
+#klaver1{
+    position: relative; top: -100px;
+}
+#schoppen1{
+    position: relative; top: -100px;
+}
+#ruit1{
+    position: relative; top: -100px;
+    
+}
+
+
+    
+p{
+    margin-left: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2{
+    font-size: 15px;
+    margin-left:135px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 45px;
+    transform: rotateX(180deg);
+}
+
+.snake{
+    margin-top: 50px;
+    margin-left: 20px;
+
+}
